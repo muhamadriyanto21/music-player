@@ -17,8 +17,8 @@ let allMusic = [
     src: "music-1"
   },
   {
-    name: "Ikson Anywhere – Ikson",
-    artist: "Audio Library",
+    name: "Lily",
+    artist: "Alan Walker",
     img: "music-2",
     src: "music-2"
   },
