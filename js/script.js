@@ -232,3 +232,18 @@ function clicked(element){
   playMusic();
   playingSong();
 }
+
+// lain
+$(document).ready(function() {
+  // Ketika ikon "more_horiz" diklik, tampilkan kotak informasi aplikasi
+  $("#more-icon").click(function() {
+    $("#app-info").toggle();
+  });
+
+  // Sembunyikan kotak informasi aplikasi saat klik di luar kotak
+  $(document).click(function(event) {
+    if (!$(event.target).closest("#app-info, #more-icon").length) {
+      $("#app-info").hide();
+    }
+  });
+});
